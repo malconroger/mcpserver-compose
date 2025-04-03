@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "description": "Diz olá para quem você quiser",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" }
+    },
+    "required": ["name"]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "message": { "type": "string" }
+    }
+  }
+}
